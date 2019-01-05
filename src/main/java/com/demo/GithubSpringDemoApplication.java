@@ -13,8 +13,9 @@ public class GithubSpringDemoApplication {
 		ApplicationContext appContext=SpringApplication.run(GithubSpringDemoApplication.class, args);
 		Add add=appContext.getBean(Add.class);
 		int result=add.addition();
-		System.out.println(" addition 1"+result);
-		System.out.println(" addition 2"+result);
+		System.out.println(" addition 1 "+result);
+        System.out.println(" addition 2"+result);
+        System.out.println(" addition 1"+result);
 	}
 
 
